@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+html{ background:#343434;}
+#wrapper{width:1100px; padding:0 50px; min-height:500px; margin:0 auto; background:#FFF;}
+#header{height:227px; width:1150px; background:url(../images/header_img.jpg) top right  no-repeat;}
+#logo{padding-top:69px;}
+#logo{width:284; height:117;}
+#menu{width:1100px; height:40px; background:url(../images/menue_bg.png) no-repeat;}
+#menu ul{float:left;}
+#menu ul li{float:left; min-width:90px; padding:0 15px; line-height:40px;}
+#menu ul li a{ text-decoration:none; color:#FFF; font-size:14px; font-family:Verdana, Geneva, sans-serif;}
+#menu h1{float:left; min-width:90px; line-height:40px; color:#FFF; font-size:14px; font-family:Verdana, Geneva, sans-serif; margin-left:60px;}
+#slinks h1 { float:left; min-width:90px; line-height:40px; color:#fff; font-size:14px; font-family:Verdana, Geneva, sans-serif;}
+#slinks { float:right; margin-right:15px;}
+#slinks img{margin-top:3px; margin-left:5px;}
+#slinks h1{ margin-right:5px;}
+#contents{width:1100; clear:both; min-height:1000px; margin-top:10px;}
+#sidebar{ width:285px; float:left; min-height:200px;}
+.side{ width:270px; background:url(../images/side_bg.png) repeat-y; min-height:200px; padding-top:12px;}
+.side_head{ width:285px; height:53px; background:url(../images/side_header.png) no-repeat; margin-right:10px; text-align:center;}
+.side h1 { color: #fff; font-family:Verdana, Geneva, sans-serif; font-size:16px; font-weight:bold; line-height:40px;}
+.side_body{}
+.side_body ul{ padding:5px; padding-left:45px;}
+.side_body ul li{ list-style-image:url(../images/arrow.png);}
+.side_body ul li a{ text-decoration:none; color:#2d2d2d; font-family:Verdana, Geneva, sans-serif; font-size:15px; line-height:20px;}
+.side form{text-align:center}
+.side input[type="text"]{width:185px; height:15px; margin-bottom:10px; padding:5px;}
+.side input[type="submit"]{ width:105px; height:25px; background-color:#343434; color:#ffffff; border:0; border-radius:5px; }
+#conts{width:809px; min-height:300px; float:right;} 
+#slider{width:809px; height:331px; background:url(../images/slider_bg.png) no-repeat;}
+#latestprojects{ margin-top:20px;}
+#latestprojects h1{ font-family:Verdana, Geneva, sans-serif; color:ed1626; font-size:17px;}
+.project:nth-child(even){margin-right:19px;}
+.project{width:395px; height:100px; float:left; margin-bottom:15px; line-height:17px;}
+.project img{ float:left; margin-right:10px;}
+.project h2{ font-family:Verdana, Geneva, sans-serif; color:080505; font-size:14px;}
+.project p{ font-family:Verdana, Geneva, sans-serif; color:080505; font-size:12px;}
+.project a{ font-family:Verdana, Geneva, sans-serif; color:cd1e32; font-size:12px; float:right; text-align:justify;}
+#footer{ margin-left:-57px; width:1150px; height:290px; background:url(../images/footer.png) no-repeat top; margin-top:30px; clear:both; padding-top:100px; padding-left:64px;}
+#send{width:256px; min-height:267px; float:left;}
+#send input[type="text"]{width:246px; height:17px; background:f4f4f4; border:0px; border-radius:5px; margin-bottom:10px; padding:5px;}
+#send textarea{width:246px; height:110px; padding:5px; border:0px; border-radius:5px; background:f4f4f4; margin-bottom:5px;}
+#send input[type="submit"]{ width:154px; height:35px; background:f4f4f4; border:0px; border-radius:5px;}
+#contacts{ float:right; font-family:Verdana, Geneva, sans-serif; color:#FFF; width:570px; font-size:14px;}
+#contacts a{ text-decoration:none; color:#FFF;}
+#contacts img{ float:left; margin-right:15px;}
+#contacts div{float:left;}
+
+
+
+
+
